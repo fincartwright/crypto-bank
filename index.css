@@ -1,0 +1,67 @@
+.page {
+    padding: 16px 160px;
+      
+  }
+  
+  span {
+      background: rgb(223, 220,220);
+      border: 1px solid grey;
+      padding: 4px 8px;
+      border-radius: 8px;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+  
+  .in-my-bank {
+      display: flex;
+      align-items: center;
+      font-size: 32px;
+  }
+  
+  p {
+      padding-right: 16px;
+      font-weight: bolder;
+  }
+  
+  .buttons {
+      display: flex;
+      margin-top: 32px;
+  }
+  
+  button {
+      margin-right: 16px;
+      height: 80px;
+      width: 200px;
+      font-size: 24px;
+      border-radius: 8px;
+  }
+  
+  button:hover {
+      cursor: pointer;
+  }
+  
+  button:first-child {
+      background: orange;
+  }
+  
+  button:nth-child(2) {
+      background: gold;
+  }
+  
+  button:nth-child(3) {
+      background: silver;
+  }
+  
+  button:first-child:hover {
+      background: rgb(151, 99, 1);
+  }
+  
+  button:nth-child(2):hover {
+      background: rgb(187, 162, 24);
+  }
+  
+  button:nth-child(3):hover {
+      background: rgb(116, 114, 114);
+  }
