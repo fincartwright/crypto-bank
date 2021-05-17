@@ -3,7 +3,7 @@
       
   }
   
-  span {
+buttons.span {
       background: rgb(223, 220,220);
       border: 1px solid grey;
       padding: 4px 8px;
@@ -64,4 +64,10 @@
   
   button:nth-child(3):hover {
       background: rgb(116, 114, 114);
+  }
+  .totals {
+      font-size: 32px;
+      font-weight: bolder;
+      display: flex;
+      
   }
