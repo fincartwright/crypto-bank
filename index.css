@@ -71,3 +71,13 @@ buttons.span {
       display: flex;
       
   }
+
+.totals:first-child {
+    background: grey
+}
+.totals:nth-child(2) {
+    background: grey;
+}
+.totals:nth-child(3) {
+    background: grey;
+}
