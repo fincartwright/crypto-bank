@@ -72,12 +72,12 @@ buttons.span {
       
   }
 
-.totals:first-child {
+total:first-child {
     background: grey
 }
-.totals:nth-child(2) {
+total:nth-child(2) {
     background: grey;
 }
-.totals:nth-child(3) {
+total:nth-child(3) {
     background: grey;
 }
