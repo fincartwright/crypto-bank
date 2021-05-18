@@ -20,7 +20,7 @@ buttons.span {
       font-size: 32px;
   }
   
-.buttons.p {
+ p {
       padding-right: 16px;
       font-weight: bolder;
   }
@@ -71,8 +71,6 @@ buttons.span {
     width: 200px;
     font-size: 24px;
     border-radius: 8px;
-    display: flex;
-    margin-top: 32px;
   }
 
 .total:first-child {
