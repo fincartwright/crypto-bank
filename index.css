@@ -80,11 +80,11 @@ buttons.span {
   }
 
 .total:first-child {
-    background: grey
+    background: whitesmoke;
 }
 .total:nth-child(2) {
-    background: grey;
+    background: whitesmoke;
 }
 .total:nth-child(3) {
-    background: grey;
+    background: whitesmoke;
 }
