@@ -20,7 +20,7 @@ buttons.span {
       font-size: 32px;
   }
   
-  p {
+.buttons.p {
       padding-right: 16px;
       font-weight: bolder;
   }
