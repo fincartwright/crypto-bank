@@ -8,3 +8,7 @@ function buyCrypto(name) {
     }
   }
 }
+
+bitcoinButton.click = function () {
+    buyCrypto('btc')
+}
