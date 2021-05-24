@@ -1,4 +1,4 @@
-const bitcoinButton = document.querySelector('#btc');
+const bitcoinButton = document.getElementById('btc');
 
 function buyCrypto(name) {
     switch (name) {
@@ -9,6 +9,6 @@ function buyCrypto(name) {
   }
 }
 
-bitcoinButton.click = function () {
-    buyCrypto('btc')
+bitcoinButton.click() = function () {
+   return buyCrypto('btc')
 }
