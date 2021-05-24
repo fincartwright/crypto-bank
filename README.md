@@ -1,2 +1,2 @@
 # crypto-bank
-this is a test
+go compare its quite alright theres nothing like gooo cooompaaaare
