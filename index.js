@@ -9,6 +9,6 @@ function buyCrypto(name) {
   }
 }
 
-bitcoinButton.click() = function () {
+bitcoinButton.onclick() = function () {
    return buyCrypto('btc')
 }
