@@ -11,4 +11,4 @@ function buyCrypto(name) {
 
 bitcoinButton.onclick() = function () {
   buyCrypto('btc')
-}
+};
