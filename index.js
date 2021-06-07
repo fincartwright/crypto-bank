@@ -51,7 +51,9 @@ case 'ethereum':{
 
 
  function makePayment (amount, name) {
-  console.log(amount, name);
-//   //const cryptoCurrencyDetails = ''
+ const cryptoCurrencyDetails = state.cryptoCurrencies.find(function (crypto){
+   return crypto.name === name;
+ });
+ console.log(cryptoCurrencyDetails)
  }
 
