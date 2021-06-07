@@ -1,20 +1,27 @@
 const bitcoinButton = document.getElementById('btc');
 
 function buyCrypto(name) {
-    alert(name);
-  //switch (name) {
-      //   case 'btc': {   
-        
-      //  prompt('bitcoin button pressed')
-    //}
-//  }
+    switch(name) {
+      case 'bitcoin':{
+        prompt('bitcoin button pressed')
+        break;
+      }
+    
+    case 'doge':{
+      prompt('doge button pressed')
+      break;
+    }
+  
+  case 'ethereum':{
+    prompt('ethereum button pressed')
+    break;
+  }
+}
+   
+    
+
+  
+
 }
 
-bitcoinButton.onclick() = function () {
-  buyCrypto('btc')
-};
 
-let state = {
-  inTheBank: 100000
-
-}
