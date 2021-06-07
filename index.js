@@ -12,3 +12,8 @@ function buyCrypto(name) {
 bitcoinButton.onclick() = function () {
   buyCrypto('btc')
 };
+
+let state = {
+  inTheBank: 100000
+
+}
