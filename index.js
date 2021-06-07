@@ -1,12 +1,13 @@
 const bitcoinButton = document.getElementById('btc');
 
 function buyCrypto(name) {
-    switch (name) {
-         case 'btc': {   
+    alert(name);
+  //switch (name) {
+      //   case 'btc': {   
         
-        prompt('bitcoin button pressed')
-    }
-  }
+      //  prompt('bitcoin button pressed')
+    //}
+//  }
 }
 
 bitcoinButton.onclick() = function () {
