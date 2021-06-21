@@ -7,12 +7,14 @@ function buyCrypto(name) {
     }
   
   case 'doge':{
+    const amount = prompt('How much Doge would you like to purchase?')
     prompt('doge button pressed')
     this.makePayment
     break;
   }
 
 case 'ethereum':{
+  const amount = prompt('How much Ethereum would you like to purchase?')
   prompt('ethereum button pressed')
   this.makePayment
   break;
