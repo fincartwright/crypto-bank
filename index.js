@@ -1,25 +1,4 @@
-function buyCrypto(name) {
-  switch(name) {
-    case 'bitcoin':{
-      const amount = prompt('How much Bitcoin would you like to purchase?')
-      this.makePayment(amount, name);
-      break;
-    }
-  
-  case 'doge':{
-    const amount = prompt('How much Doge would you like to purchase?')
-    prompt('doge button pressed')
-    this.makePayment
-    break;
-  }
 
-case 'ethereum':{
-  const amount = prompt('How much Ethereum would you like to purchase?')
-  prompt('ethereum button pressed')
-  this.makePayment
-  break;
-}
-}}
  let state = {
   inTheBank: 100000, 
    cryptoCurrencies: [
@@ -41,6 +20,28 @@ case 'ethereum':{
    ]
   
  }
+ function buyCrypto(name) {
+  switch(name) {
+    case 'bitcoin':{
+      const amount = prompt('How much Bitcoin would you like to purchase?')
+      this.makePayment(amount, name);
+      break;
+    }
+  
+  case 'doge':{
+    const amount = prompt('How much Doge would you like to purchase?')
+    prompt('doge button pressed')
+    this.makePayment
+    break;
+  }
+
+case 'ethereum':{
+  const amount = prompt('How much Ethereum would you like to purchase?')
+  prompt('ethereum button pressed')
+  this.makePayment
+  break;
+}
+}}
 
  function makePayment (amount, name) {
  const cryptoCurrencyDetails = state.cryptoCurrencies.find(function (crypto){
