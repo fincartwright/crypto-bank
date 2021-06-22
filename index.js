@@ -1,5 +1,4 @@
-
- let state = {
+let state = {
   inTheBank: 100000, 
    cryptoCurrencies: [
      {
@@ -17,9 +16,9 @@
        price: 200,
        holding: 0,
      }
-   ]
-  
+   ] 
  }
+
  function buyCrypto(name) {
   switch(name) {
     case 'bitcoin':{
@@ -27,26 +26,36 @@
       this.makePayment(amount, name);
       break;
     }
-  
   case 'doge':{
     const amount = prompt('How much Doge would you like to purchase?')
+      this.makePayment(amount, name);
     prompt('doge button pressed')
-    this.makePayment
     break;
   }
-
 case 'ethereum':{
   const amount = prompt('How much Ethereum would you like to purchase?')
+      this.makePayment(amount, name);
   prompt('ethereum button pressed')
-  this.makePayment
   break;
-}
-}}
-
- function makePayment (amount, name) {
- const cryptoCurrencyDetails = state.cryptoCurrencies.find(function (crypto){
-   return crypto.name === name;
- });
- console.log(cryptoCurrencyDetails);
+  }
  }
+}
+
+function makePayment (amount, name) {
+  const cryptoCurrencyDetails = state.cryptoCurrencies.find(function (crypto){
+    return crypto.name === name;
+  });
+
+ const coinsICanBuy = amount / cryptoCurrencyDetails.price; 
+ if( amount > state.inTheBank) {
+  alert('you cannot afford that')
+ }
+ else{
+ console.log(coinsICanBuy)
+ state.inTheBank = state.inTheBank - amount,
+ console.log(state.inTheBank)
+ const inMyBank = document.querySelector('p');
+ inMyBankHTML.innerHTML = ""
+ }
+}
 
