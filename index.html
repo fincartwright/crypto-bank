@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,13 @@
     <link rel="stylesheet" href="index.css">
     <title>The Crypto Bank</title>
 </head>
+
 <body>
     <div class="page">
         <h1>The Crypto Bank</h1>
         <div class="in-my-bank">
             <p>In My Bank:</p><span>100,000</span>
-            
+
         </div>
         <hr>
         <div class="buttons">
@@ -21,11 +23,18 @@
             <button onclick="buyCrypto('ethereum')">Buy Ethereum</button>
         </div>
         <div class="totals">
-            <div  class='total'><p>btc: <span>0</span></p></div>
-            <div class='total'><p>doge: <span>0</span></p></div>
-            <div class='total'><p>eth: <span>0</span></p></div>
+            <div id="bitcoin" class='total'>
+                <p>btc: <span>0</span></p>
+            </div>
+            <div id="doge" class='total'>
+                <p>doge: <span>0</span></p>
+            </div>
+            <div id="ethereum" class='total'>
+                <p>eth: <span>0</span></p>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
