@@ -1,0 +1,25 @@
+.page {
+    height: 100%;
+    display: grid;
+    place-items: centre;
+    background: magenta;
+}
+.signup-form {
+    height: 450px;
+    width: 404px;
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 64px;
+}
+input:first-child{
+    margin-bottom: 46px;
+}
+input{
+    height: 52px;
+}
+
+::placeholder {
+    text-align: center;
+}
